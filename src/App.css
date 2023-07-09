@@ -36,3 +36,73 @@
     transform: rotate(360deg);
   }
 }
+
+.navButton {
+  /* nav bar button for personal site */
+  background-color: #282c34;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  transition-duration: 0.4s;
+}
+
+.navButton:hover {
+  background-color: #61dafb;
+  color: black;
+}
+
+.navButton:active {
+  background-color: #61dafb;
+  color: black;
+  transform: translateY(4px);
+}
+
+.navButton:focus {
+  outline: none;
+}
+
+.navButton:visited {
+  color: white;
+}
+
+.navButton:visited:hover {
+  background-color: #61dafb;
+  color: black;
+}
+
+.navButton:visited:active {
+  background-color: #61dafb;
+  color: black;
+  transform: translateY(4px);
+}
+
+.navButton:visited:focus {
+  outline: none;
+}
+
+.navBar {
+  /* nav bar for personal site */
+  background-color: #282c34;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.sitePage {
+  /* site page for personal site */
+  background-color: #282c34;
+  color: white;
+  padding: 50px;
+  font-size: 36px;
+  text-align: center;
+}
+
+
