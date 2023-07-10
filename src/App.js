@@ -2,17 +2,35 @@ import React from 'react';
 import './App.css';
 import Home from './Home';
 
-const About = () => (
+// Future sections:
+// Home: my picture and a little about me
+// Publications: (in the future if i have these)
+// Research: (maybe projects for now?)
+// Academics: Degrees and all Academic awards, tech skills?
+// CV: PDF CV
+// Contact: just email? not phone or address probably. maybe linkedin
+
+// TODO make each page have a separate path
+
+
+const Projects = () => (
   <div>
-    <h1>About Me</h1>
-    <p>I am an academic...</p>
+    <h1>Selected Projects</h1>
+    <p>G2P, Terra, Hooks lab work, Fall detector, compiler, superscalar pipeline, pacrunner</p>
+  </div>
+);
+
+const Academics = () => (
+  <div>
+    <h1>Academics</h1>
+    <p>list degrees, awards section, tech skills, vertically</p>
   </div>
 );
 
 const Contact = () => (
   <div>
     <h1>Contact Me</h1>
-    <p>You can reach me at...</p>
+    <p>You can reach me at... &#123;myname-lowercase-nospace&#125;2 at gmail.com</p>
   </div>
 );
 
@@ -32,8 +50,11 @@ class App extends React.Component {
       case 'home':
         Page = Home;
         break;
-      case 'about':
-        Page = About;
+      case 'projects':
+        Page = Projects;
+        break;
+      case 'academics':
+        Page = Academics;
         break;
       case 'contact':
         Page = Contact;
@@ -42,24 +63,14 @@ class App extends React.Component {
         Page = Home;
     }
 
-    /*return (
-      <div>
-        <nav>
-          <button onClick={() => this.navigate('home')}>Home</button>
-          <button onClick={() => this.navigate('about')}>About</button>
-          <button onClick={() => this.navigate('contact')}>Contact</button>
-        </nav>
-        <Page />
-      </div>
-    );*/
-
     // new version with some css classes for styling and a comment explain
     // what styling is brought by each class
     return (
       <div>
         <nav className='navBar'>
           <button className="navButton" onClick={() => this.navigate('home')}>Home</button>
-          <button className="navButton" onClick={() => this.navigate('about')}>About</button>
+          <button className="navButton" onClick={() => this.navigate('projects')}>Projects</button>
+          <button className="navButton" onClick={() => this.navigate('academics')}>Academics</button>
           <button className="navButton" onClick={() => this.navigate('contact')}>Contact</button>
         </nav>
         <div className="sitePage">

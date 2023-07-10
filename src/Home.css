@@ -31,11 +31,16 @@
   .sidebar a:visited {
     color: black;
   }
-  
-.sidebar i {
-    margin-right: 5px;
-    vertical-align: middle;
+
+  .sidebar .icon {
+    width: 20px; /* Adjust as necessary */
+    height: auto; /* Maintains the aspect ratio */
+    margin-top: 0px;
+    margin-right: 5px; /* Space between the icon and the link text */
+    vertical-align: middle; /* Aligns the icon with the link text */
   }
+  
+  
   
 .mainContent {
     flex: 70%;
