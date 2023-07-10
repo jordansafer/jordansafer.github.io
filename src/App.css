@@ -96,13 +96,13 @@
   z-index: 1;
 }
 
+/* for site page just put margins so it doesn't overlap with nav bar */
+/* and to keep it off the border of the page */
 .sitePage {
   /* site page for personal site */
-  background-color: #282c34;
-  color: white;
-  padding: 50px;
-  font-size: 36px;
-  text-align: center;
+  margin-top: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
 }
-
 
