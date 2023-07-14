@@ -59,9 +59,10 @@ const Home = () => {
                 and <strong>How</strong>. The science is in the “What” and the “How”.
             </p>
             <p>
-                <strong>A quick TLDR:</strong> My current focus is on using a building computational tools to study 
-                the influence of protein sequence, protein structure, and genetic variants to understand and predict 
-                protein behaviors including disease mechanisms, therapeutic targets, and PPI kinetics.
+                <strong>A quick TLDR:</strong> My current focus is on using a building <strong>computational tools</strong> to study 
+                the influence of <strong>protein sequence</strong>, <strong>protein structure</strong>, and <strong>genetic variants</strong> to 
+                understand and predict <strong>protein behaviors</strong> including <strong>disease mechanisms</strong>, <strong>therapeutic 
+                targets</strong>, and <strong>PPI kinetics</strong>.
             </p>
             <p>
                 <strong>What:</strong> Research computational techniques to <em>systematically</em> reduce the rate of disease. 
