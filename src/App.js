@@ -27,13 +27,6 @@ const Academics = () => (
   </div>
 );
 
-const Contact = () => (
-  <div>
-    <h1>Contact Me</h1>
-    <p>You can reach me at... &#123;myname-lowercase-nospace&#125;2 at gmail.com</p>
-  </div>
-);
-
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -53,12 +46,6 @@ class App extends React.Component {
       case 'projects':
         Page = Projects;
         break;
-      case 'academics':
-        Page = Academics;
-        break;
-      case 'contact':
-        Page = Contact;
-        break;
       default:
         Page = Home;
     }
@@ -70,8 +57,6 @@ class App extends React.Component {
         <nav className='navBar'>
           <button className="navButton" onClick={() => this.navigate('home')}>Home</button>
           <button className="navButton" onClick={() => this.navigate('projects')}>Projects</button>
-          <button className="navButton" onClick={() => this.navigate('academics')}>Academics</button>
-          <button className="navButton" onClick={() => this.navigate('contact')}>Contact</button>
         </nav>
         <div className="sitePage">
           <Page />
