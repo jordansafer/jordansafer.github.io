@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Home from './Home';
+import Projects from './Projects';
 
 // Future sections:
 // Home: my picture and a little about me
@@ -11,14 +12,6 @@ import Home from './Home';
 // Contact: just email? not phone or address probably. maybe linkedin
 
 // TODO make each page have a separate path
-
-
-const Projects = () => (
-  <div>
-    <h1>Selected Projects</h1>
-    <p>G2P, Terra, Hooks lab work, Fall detector, compiler, superscalar pipeline, pacrunner</p>
-  </div>
-);
 
 const Academics = () => (
   <div>
