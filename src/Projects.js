@@ -9,7 +9,7 @@ const Projects = () => {
     const projects = [
       {
         name: 'Genomics 2 Proteins Portal',
-        date: 'March 2023 - Present',
+        date: 'April 2023 - Present',
         description: [
           "G2P is a portal that takes on the challenge of integrating the ever \
           growing amount of variant data with protein data on the sequence and structure. \
@@ -84,8 +84,18 @@ const Projects = () => {
             {renderProject(project)}
           </div>
         ))}
-        <h2>Other Projects</h2>
-        <p>Hooks lab work, Fall detector, compiler, superscalar pipeline, determinator (smart football), pacrunner (infinite pacman)</p>
+        <h2>Selected Past Projects</h2>
+        <ul>
+          <li>Hooks lab - mouse brain connectivity analysis</li>
+          <li>Fall detector - Signal Processing capstone project</li>
+          <li>C0 to x86 compiler</li>
+          <li>Screeps AI: <a href="https://github.com/JonathanSafer/screeps">Code</a></li>
+          <li>Superscalar pipeline - Digital logic architecture & implementation</li>
+          <li><a href="https://github.com/jordansafer/determinator">Determinator</a> - Smart football</li>
+          <li>Pacrunner - Infinite pacman: 
+            <a href="https://github.com/jordansafer/pacrunnergame"> Code</a>
+          </li>
+        </ul>
       </div>
     );
 };

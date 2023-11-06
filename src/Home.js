@@ -55,8 +55,12 @@ const Home = () => {
                 Bioinformatics and Computational Biology (BCB) Group within 
                 the Center for the Development of Therapeutics (CDoT) 
                 at the <a href="https://www.broadinstitute.org/" target="_blank" rel="noopener noreferrer">Broad Institute of MIT and Harvard</a>. 
-                My research goals break into three questions: <strong>What</strong>, <strong>Why</strong>, 
-                and <strong>How</strong>. The science is in the “What” and the “How”.
+            </p>
+            <p> 
+                As a computational researcher, my goal is to create tools that allow us to systematically understand and treat disease. To that end,
+                see my current work on <a href="https://g2p.broadinstitute.org/" target="_blank" rel="noopener noreferrer">Genomics to Proteins Portal (G2P)
+                </a>. I currently work on tooling around protein struture and function, especially around genetic variation. I'm also very excited about
+                protein kinetics 🙂.
             </p>
             <p>
                 <strong>A quick TLDR:</strong> My current focus is on using a building <strong>computational tools</strong> to study 
