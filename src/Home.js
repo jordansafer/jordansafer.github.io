@@ -63,10 +63,10 @@ const Home = () => {
                 protein kinetics 🙂.
             </p>
             <p>
-                <strong>A quick TLDR:</strong> My current focus is on using a building <strong>computational tools</strong> to study 
+                <strong>A quick summary:</strong> My current focus is on building <strong>computational tools</strong> to study 
                 the influence of <strong>protein sequence</strong>, <strong>protein structure</strong>, and <strong>genetic variants</strong> to 
                 understand and predict <strong>protein behaviors</strong> including <strong>disease mechanisms</strong>, <strong>therapeutic 
-                targets</strong>, and <strong>PPI kinetics</strong>.
+                targets</strong>, and <strong>protein kinetics</strong>.
             </p>
             <p>
                 <strong>What:</strong> Research computational techniques to <em>systematically</em> reduce the rate of disease. 
