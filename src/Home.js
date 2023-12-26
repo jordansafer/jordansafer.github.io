@@ -13,6 +13,8 @@ import cv from './assets/JordanSaferResume07142023.pdf';
 
 const Home = () => {
     return (
+        <>
+        <h1>Jordan Safer</h1>
       <div className="container">
         <div className="sidebar">
           <img src={headshot} alt="Jordan Safer" />
@@ -48,7 +50,6 @@ const Home = () => {
             </p>
         </div>
         <div className="mainContent">
-          <h1>Jordan Safer</h1>
           <h2>About</h2>
             <p>
                 I am a Computational Associate in the 
@@ -56,12 +57,16 @@ const Home = () => {
                 the Center for the Development of Therapeutics (CDoT) 
                 at the <a href="https://www.broadinstitute.org/" target="_blank" rel="noopener noreferrer">Broad Institute of MIT and Harvard</a>. 
             </p>
+            <p>
+                
+            </p>
             <p> 
                 As a computational researcher, my goal is to create tools that allow us to systematically understand and treat disease. To that end,
                 see my current work on <a href="https://g2p.broadinstitute.org/" target="_blank" rel="noopener noreferrer">Genomics to Proteins Portal (G2P)
                 </a>. I currently work on tooling around protein struture and function, especially around genetic variation. I'm also very excited about
                 protein kinetics 🙂.
             </p>
+        <h2>Research Interests and motivation</h2>   
             <p>
                 <strong>A quick summary:</strong> My current focus is on building <strong>computational tools</strong> to study 
                 the influence of <strong>protein sequence</strong>, <strong>protein structure</strong>, and <strong>genetic variants</strong> to 
@@ -108,6 +113,7 @@ const Home = () => {
             </p>
         </div>
       </div>
+        </>
     );
   };
   
