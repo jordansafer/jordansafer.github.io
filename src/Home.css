@@ -56,4 +56,11 @@
     padding-left: 50px;
     box-sizing: border-box;
   }
+
+  /* don't add padding to the mainContent when the screen size is 600px or less */
+@media screen and (max-width: 600px) {
+    .mainContent {
+      padding: 10px;
+    }
+  }
   
