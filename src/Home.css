@@ -1,7 +1,6 @@
 .container {
     display: flex;
     margin: 0 auto; /* Adds equal margin to left and right of the container */
-    max-width: 1200px; /* Change as needed to control the maximum width */
   }
 
   /* when the screen size is 600px or less, set the sidebar and mainContent to stack on top of each other */
