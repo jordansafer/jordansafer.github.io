@@ -14,7 +14,7 @@ import cv from './assets/JordanSaferResume07142023.pdf';
 const Home = () => {
     return (
         <>
-        <h1>Jordan Safer</h1>
+        <h1 className='page-heading'>Jordan Safer</h1>
       <div className="container">
         <div className="sidebar">
           <img src={headshot} alt="Jordan Safer" />

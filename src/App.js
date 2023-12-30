@@ -1,7 +1,12 @@
+
+
 import React from 'react';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+
 import './App.css';
 import Home from './Home';
 import Projects from './Projects';
+import Academics from './Academics';
 
 // Future sections:
 // Home: my picture and a little about me
@@ -11,53 +16,38 @@ import Projects from './Projects';
 // CV: PDF CV
 // Contact: just email? not phone or address probably. maybe linkedin
 
-// TODO make each page have a separate path
-
-const Academics = () => (
+// 404 page
+const NoMatch = () => (
   <div>
-    <h1>Academics</h1>
-    <p>list degrees, awards section, tech skills, vertically</p>
+    <h1>404</h1>
+    <p>Page not found</p>
   </div>
 );
 
 class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { page: 'home' };
-  }
-
-  navigate(page) {
-    this.setState({ page });
-  }
-
   render() {
-    let Page;
-    switch (this.state.page) {
-      case 'home':
-        Page = Home;
-        break;
-      case 'projects':
-        Page = Projects;
-        break;
-      default:
-        Page = Home;
-    }
-
-    // new version with some css classes for styling and a comment explain
-    // what styling is brought by each class
     return (
-      <div>
-        <nav className='navBar'>
-          <button className="navButton" onClick={() => this.navigate('home')}>Home</button>
-          <button className="navButton" onClick={() => this.navigate('projects')}>Projects</button>
-        </nav>
-        <div className="sitePage">
-          <Page />
+      <Router>
+        <div>
+          <nav className='navBar'>
+            <Link to="/" className="navButton">Home</Link>
+            <Link to="/projects" className="navButton">Projects</Link>
+            <Link to="/academics" className="navButton">Academics</Link>
+          </nav>
+          <div className="sitePage">
+            <Routes>
+              <Route exact path="/" element={<Home />} />
+              <Route path="/projects" element={<Projects />} />
+              <Route path="/academics" element={<Academics />} />
+              <Route path="*" element={<NoMatch />} />
+            </Routes>
+          </div>
         </div>
-      </div>
+      </Router>
     );
   }
 }
 
 export default App;
+
 

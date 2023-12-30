@@ -10,6 +10,11 @@
       flex-direction: column;
     }
   }
+
+  .page-heading {
+    /* centered horizontally */ 
+    text-align: center;
+  }
   
   .sidebar {
     flex: 25%;  /* Decreased from 30% to 25% */
