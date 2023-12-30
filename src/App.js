@@ -24,29 +24,27 @@ const NoMatch = () => (
   </div>
 );
 
-class App extends React.Component {
-  render() {
-    return (
-      <Router>
-        <div>
-          <nav className='navBar'>
-            <Link to="/" className="navButton">Home</Link>
-            <Link to="/projects" className="navButton">Projects</Link>
-            <Link to="/academics" className="navButton">Academics</Link>
-          </nav>
-          <div className="sitePage">
-            <Routes>
-              <Route exact path="/" element={<Home />} />
-              <Route path="/projects" element={<Projects />} />
-              <Route path="/academics" element={<Academics />} />
-              <Route path="*" element={<NoMatch />} />
-            </Routes>
-          </div>
+const App = () => {
+  return (
+    <Router>
+      <div>
+        <nav className='navBar'>
+          <Link to="/" className="navButton">Home</Link>
+          <Link to="/projects" className="navButton">Projects</Link>
+          <Link to="/academics" className="navButton">Academics</Link>
+        </nav>
+        <div className="sitePage">
+          <Routes>
+            <Route exact path="/" element={<Home />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/academics" element={<Academics />} />
+            <Route path="*" element={<NoMatch />} />
+          </Routes>
         </div>
-      </Router>
-    );
-  }
-}
+      </div>
+    </Router>
+  );
+};
 
 export default App;
 
