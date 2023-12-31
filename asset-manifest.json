@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.fc62f57e.css",
-    "main.js": "/static/js/main.1b3f7494.js",
+    "main.css": "/static/css/main.7fa68268.css",
+    "main.js": "/static/js/main.af1054df.js",
     "static/js/787.3ba5e41c.chunk.js": "/static/js/787.3ba5e41c.chunk.js",
     "static/media/jordan-safer-headshot.png": "/static/media/jordan-safer-headshot.24897c3477fdf3501ddf.png",
     "static/media/JordanSaferResume07142023.pdf": "/static/media/JordanSaferResume07142023.1e373f3b87f417a842fc.pdf",
     "index.html": "/index.html",
     "static/media/ORCID_iD.svg": "/static/media/ORCID_iD.83064addb86ad013bb4df9e1549edd13.svg",
-    "main.fc62f57e.css.map": "/static/css/main.fc62f57e.css.map",
-    "main.1b3f7494.js.map": "/static/js/main.1b3f7494.js.map",
+    "main.7fa68268.css.map": "/static/css/main.7fa68268.css.map",
+    "main.af1054df.js.map": "/static/js/main.af1054df.js.map",
     "787.3ba5e41c.chunk.js.map": "/static/js/787.3ba5e41c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc62f57e.css",
-    "static/js/main.1b3f7494.js"
+    "static/css/main.7fa68268.css",
+    "static/js/main.af1054df.js"
   ]
 }
