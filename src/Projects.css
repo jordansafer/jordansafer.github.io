@@ -22,3 +22,13 @@
     justify-content: start;
   }
   
+.project {
+  /* put some space between the projects */
+  margin-bottom: 40px;
+}
+
+.project-caption {
+  margin-top: 5px; /* Spacing above the caption */
+  font-style: italic; /* Optional: for italicized caption text */
+}
+

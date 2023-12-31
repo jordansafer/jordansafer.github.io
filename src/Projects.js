@@ -23,6 +23,7 @@ const Projects = () => {
         ],
         url: 'https://g2p.broadinstitute.org/',
         imageLinks: ['images/g2phome.png', '/images/g2pviewer.png', '/images/g2p_usermapping.png',],
+        caption: 'Selected pages from the G2P portal. Users can access features (center) and map them and user-provided features to protein structures (right).'
       },
       {
         name: 'Terra Platform',
@@ -41,6 +42,7 @@ const Projects = () => {
         githubLink: 'https://www.github.com/broadinstitute/import-service',
         url: 'https://terra.bio/',
         imageLinks: ['/images/terra_workspace.png', '/images/terra_import.png',],
+        caption: 'The data page and data import pages in Terra.'
       },
       {
         name: 'Amazon Robotics',
@@ -53,6 +55,7 @@ const Projects = () => {
         ],
         url: 'https://www.amazonrobotics.com/#/',
         imageLinks: ['/images/drives_and_pods.png','/images/ar_stow.png',],
+        caption: 'A view onto the Amazon Robotic floor. We worked to track all of those yellow shelves and what was on them. And on that workstation to the right (see monitor and buttons). Images sourced from Amazon (https://www.aboutamazon.com/news/tag/robotics)'
       }
       // ...other projects: Hooks Lab neuroscience, Fall detector, compiler, superscalar pipeline, pacrunner, determinator
     ];
@@ -74,11 +77,14 @@ const Projects = () => {
         {project.url && (
             <a href={project.url}>Website</a>
         )}
-            <div className="project-images-row">
-      {project.imageLinks && project.imageLinks.map((imageLink, index) => (
-        <img key={index} src={imageLink} alt={project.name} className="project-image" />
-      ))}
-    </div>
+        <div className="project-images-row">
+          {project.imageLinks && project.imageLinks.map((imageLink, index) => (
+            <img key={index} src={imageLink} alt={project.name} className="project-image" />
+          ))}
+        </div>
+        {project.caption && (
+        <p className="project-caption">{project.caption}</p>
+        )}
       </div>
     );
     
@@ -100,8 +106,8 @@ const Projects = () => {
           <li>Superscalar pipeline - Digital logic architecture & implementation</li>
           <li><a href="https://github.com/jordansafer/determinator">Determinator</a> - Smart football</li>
           <li>Pacrunner - Infinite pacman: 
-            <a href="https://github.com/jordansafer/pacrunnergame"> Code</a>
-            <a href={pacrunnerDemoUrl}> Demo Video</a>
+            <a href="https://github.com/jordansafer/pacrunnergame"> Code</a>,
+            <a href={pacrunnerDemoUrl}> Video</a>
           </li>
         </ul>
       </div>

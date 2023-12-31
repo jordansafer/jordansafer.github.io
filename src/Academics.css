@@ -1,0 +1,20 @@
+
+.academics-container h2, .academics-container p, .academics-container ul, .academics-container li {
+    margin-top: 5px; /* Minimal top margin */
+    margin-bottom: 5px; /* Minimal bottom margin */
+  }
+  
+  .academics-container h3 {
+    margin-top: 20px; /* Slightly more space above h3 */
+    margin-bottom: 5px; /* Minimal bottom margin */
+  }
+  
+  .academics-container section {
+    margin-bottom: 40px; /* Substantial space below each section */
+  }
+
+  .academics-container h1 {
+    margin-bottom: 25px; /* Substantial space below each section */;
+  }
+  
+  
