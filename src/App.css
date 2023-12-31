@@ -104,6 +104,10 @@
     display: block;
     text-align: left;
   }
+
+  body {
+    padding-top: 120px; /* Adjust this value to match the navbar's height */
+  }
 }
 
 /* for site page just put margins so it doesn't overlap with nav bar */
