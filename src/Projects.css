@@ -40,3 +40,10 @@
   font-style: italic; /* Optional: for italicized caption text */
 }
 
+/* on mobile split long strings of text into multiple lines */
+@media screen and (max-width: 600px) {
+  .project-caption {
+    word-wrap: break-word;
+  }
+}
+
