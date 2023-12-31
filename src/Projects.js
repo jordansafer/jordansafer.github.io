@@ -5,6 +5,8 @@ import './Projects.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
+const pacrunnerDemoUrl = 'https://www.youtube.com/watch?v=Q86Zm2wwvOM';
+
 const Projects = () => {
     const projects = [
       {
@@ -20,7 +22,8 @@ const Projects = () => {
           and sequence to structure mapping for these and other features. Stay tuned for more!",
         ],
         url: 'https://g2p.broadinstitute.org/',
-      }, // TODO a picture of g2p or the pfv or structure mapping
+        imageLinks: ['images/g2phome.png', '/images/g2pviewer.png', '/images/g2p_usermapping.png',],
+      },
       {
         name: 'Terra Platform',
         date: 'October 2021 - March 2023',
@@ -37,19 +40,23 @@ const Projects = () => {
         ],
         githubLink: 'https://www.github.com/broadinstitute/import-service',
         url: 'https://terra.bio/',
-      }, // TODO a picture or terra
+        imageLinks: ['/images/terra_workspace.png', '/images/terra_import.png',],
+      },
       {
         name: 'Amazon Robotics',
         date: 'July 2018 - September 2021',
         description: [
-
+          "Amazon Robotics operates and develops robotic systems at the core of Amazon's shipping network. \
+           I worked on software responsible for the virtual picture of the warehouse, tracking inventory and package states \
+           to support the robotic system and the workers operating the system. \
+           I worked on user facing appliations and hardware support to allow users to setup and operate the system."
         ],
         url: 'https://www.amazonrobotics.com/#/',
-        // TODO image of a pod and maybe a tote rack
+        imageLinks: ['/images/drives_and_pods.png','/images/ar_stow.png',],
       }
       // ...other projects: Hooks Lab neuroscience, Fall detector, compiler, superscalar pipeline, pacrunner, determinator
     ];
-  
+
     const renderProject = (project) => (
       <div className='project'>
         <h2>{project.name}</h2>
@@ -58,23 +65,23 @@ const Projects = () => {
           <p key={index}>{paragraph}</p>
         ))}
         {project.githubLink && (
-            <>
-                <a href={project.githubLink}>
-                    <FontAwesomeIcon icon={faGithub} className="icon" />&nbsp;GitHub
-                </a>&nbsp;&nbsp;
-                </>
-
+          <>
+            <a href={project.githubLink}>
+                <FontAwesomeIcon icon={faGithub} className="icon" />&nbsp;GitHub
+            </a>&nbsp;&nbsp;
+          </>
         )}
         {project.url && (
-
-                <a href={project.url}>Website</a>
-      
+            <a href={project.url}>Website</a>
         )}
-        {project.imageLink && (
-          <img src={project.imageLink} alt={project.name} />
-        )}
+            <div className="project-images-row">
+      {project.imageLinks && project.imageLinks.map((imageLink, index) => (
+        <img key={index} src={imageLink} alt={project.name} className="project-image" />
+      ))}
+    </div>
       </div>
     );
+    
   
     return (
       <div>
@@ -94,6 +101,7 @@ const Projects = () => {
           <li><a href="https://github.com/jordansafer/determinator">Determinator</a> - Smart football</li>
           <li>Pacrunner - Infinite pacman: 
             <a href="https://github.com/jordansafer/pacrunnergame"> Code</a>
+            <a href={pacrunnerDemoUrl}> Demo Video</a>
           </li>
         </ul>
       </div>

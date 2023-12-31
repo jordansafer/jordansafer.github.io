@@ -6,3 +6,19 @@
   .project a:visited {
     color: black;
   }
+
+  .project-image {
+    height: 250px;
+    border: 1px solid #ddd; /* A light grey border */
+    margin-right: 20px; /* Space between images */
+    margin-top: 10px; /* Space above images */
+    margin-bottom: 10px; /* Space below images */
+  }
+  
+  .project-images-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: start;
+  }
+  
