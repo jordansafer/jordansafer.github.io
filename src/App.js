@@ -1,6 +1,6 @@
 
 
-import React from 'react';
+import React, { useState } from 'react';
 import { HashRouter as Router, Route, Routes, Link } from 'react-router-dom';
 
 import './App.css';
@@ -25,13 +25,22 @@ const NoMatch = () => (
 );
 
 const App = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <Router>
       <div>
         <nav className='navBar'>
-          <Link to="/" className="navButton">Home</Link>
-          <Link to="/projects" className="navButton">Projects</Link>
-          <Link to="/academics" className="navButton">Academics</Link>
+          <button onClick={toggleMenu} className="hamburger">&#9776;</button>
+          <div className={isOpen ? "nav-links active" : "nav-links"}>
+            <Link to="/" className="navButton">Home</Link>
+            <Link to="/projects" className="navButton">Projects</Link>
+            <Link to="/academics" className="navButton">Academics</Link>
+          </div>
         </nav>
         <div className="sitePage">
           <Routes>

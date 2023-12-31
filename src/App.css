@@ -97,6 +97,11 @@
   padding: 15px;
 }
 
+.hamburger {
+  display: none;
+  /* Additional styles for the hamburger icon */
+}
+
 /* make navbar switch to vertical when on mobile */
 @media screen and (max-width: 600px) {
   .navBar a {
@@ -104,9 +109,22 @@
     display: block;
     text-align: left;
   }
+  
+  .hamburger {
+    display: block; /* Show hamburger menu on mobile */
+  }
 
-  body {
-    padding-top: 120px; /* Adjust this value to match the navbar's height */
+  .nav-links {
+    display: none; /* Hide nav links by default on mobile */
+  }
+
+  .nav-links.active {
+    display: block; /* Show nav links when hamburger menu is active */
+  }
+
+  .navButton {
+    display: block;
+    /* Additional styles for vertical layout */
   }
 }
 
