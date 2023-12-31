@@ -97,6 +97,15 @@
   padding: 15px;
 }
 
+/* make navbar switch to vertical when on mobile */
+@media screen and (max-width: 600px) {
+  .navBar a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
 /* for site page just put margins so it doesn't overlap with nav bar */
 /* and to keep it off the border of the page */
 .sitePage {
