@@ -14,6 +14,14 @@
     margin-top: 10px; /* Space above images */
     margin-bottom: 10px; /* Space below images */
   }
+
+  /* on mobile make the images take up the full width of the screen */
+  @media screen and (max-width: 600px) {
+    .project-image {
+      width: 100%;
+      height: auto;
+    }
+  }
   
   .project-images-row {
     display: flex;
