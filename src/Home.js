@@ -108,9 +108,6 @@ const Home = () => {
                 with an emphasis on <strong>computational tools</strong> for predicting protein activity both broadly and in 
                 the context of disease.
             </p>
-            <p>
-                That second object - <em>for now</em> - is there to keep in mind.
-            </p>
         </div>
       </div>
         </>

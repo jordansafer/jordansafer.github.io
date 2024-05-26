@@ -6,7 +6,8 @@ import { HashRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import './App.css';
 import Home from './Home';
 import Projects from './Projects';
-import Academics from './Academics';
+import Experience from './Experience';
+import Research from './Research';
 
 // Future sections:
 // Home: my picture and a little about me
@@ -39,14 +40,16 @@ const App = () => {
           <div className={isOpen ? "nav-links active" : "nav-links"}>
             <Link to="/" className="navButton">Home</Link>
             <Link to="/projects" className="navButton">Projects</Link>
-            <Link to="/academics" className="navButton">Academics</Link>
+            <Link to="/experience" className="navButton">Experience</Link>
+            <Link to="/research" className="navButton">Research</Link>
           </div>
         </nav>
         <div className="sitePage">
           <Routes>
             <Route exact path="/" element={<Home />} />
             <Route path="/projects" element={<Projects />} />
-            <Route path="/academics" element={<Academics />} />
+            <Route path="/experience" element={<Experience />} />
+            <Route path="/research" element={<Research />} />
             <Route path="*" element={<NoMatch />} />
           </Routes>
         </div>

@@ -1,11 +1,11 @@
 import React from 'react';
 
-import './Academics.css';
+import './Experience.css';
 
 const link491 = "https://course.ece.cmu.edu/~ece491/";
 const link150 = 'https://www.cs.cmu.edu/~15150/index.html';
 
-const Academics = () => (
+const Experience = () => (
   <div className='academics-container'>
     <h1>Academics</h1>
     <section>
@@ -23,7 +23,7 @@ const Academics = () => (
         <p>Carnegie Mellon University, Pittsburgh, PA</p>
         <p>September 2014 - May 2017</p>
         <ul>
-          <li>Coursework in advanced algorithm design, embedded systems, advanced digital logic design.</li>
+          <li>Coursework in algorithm design, embedded systems, digital logic design.</li>
           <li>Worked 3 semesters as a Teaching Assistant for <a href={link150}>Functional Programming (15-150)</a>.</li>
         </ul>
       </div>
@@ -39,4 +39,4 @@ const Academics = () => (
   </div>
 );
 
-export default Academics;
+export default Experience;
