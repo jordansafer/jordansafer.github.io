@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.e27581a2.css",
-    "main.js": "/static/js/main.6d0b961e.js",
+    "main.js": "/static/js/main.8168f555.js",
     "static/js/787.3ba5e41c.chunk.js": "/static/js/787.3ba5e41c.chunk.js",
     "static/media/jordan-safer-headshot.png": "/static/media/jordan-safer-headshot.24897c3477fdf3501ddf.png",
     "static/media/JordanSaferResume07142023.pdf": "/static/media/JordanSaferResume07142023.1e373f3b87f417a842fc.pdf",
     "index.html": "/index.html",
     "static/media/ORCID_iD.svg": "/static/media/ORCID_iD.83064addb86ad013bb4df9e1549edd13.svg",
     "main.e27581a2.css.map": "/static/css/main.e27581a2.css.map",
-    "main.6d0b961e.js.map": "/static/js/main.6d0b961e.js.map",
+    "main.8168f555.js.map": "/static/js/main.8168f555.js.map",
     "787.3ba5e41c.chunk.js.map": "/static/js/787.3ba5e41c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e27581a2.css",
-    "static/js/main.6d0b961e.js"
+    "static/js/main.8168f555.js"
   ]
 }
