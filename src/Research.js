@@ -7,15 +7,18 @@ const Publication = ({title, link, authors, me_index, date, medium, description}
   // first line title, with link
   // second line authors, with me_index bolded
   // third line date, medium
+  const title_link = <a
+    href={link}
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    {title}
+  </a>;
+
+
   return (
     <div>
-      <h3><a
-        href={link}
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        {title}
-      </a></h3>
+      <h3>{link ? title_link : title}</h3>
       {authors && (<p>
         {authors.map((author, index) => (
           <span key={index}>
