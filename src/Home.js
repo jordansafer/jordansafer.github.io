@@ -52,9 +52,7 @@ const Home = () => {
         <div className="mainContent">
           <h2>About</h2>
             <p>
-                I am a Computational Associate in the 
-                Bioinformatics and Computational Biology (BCB) Group within 
-                the Center for the Development of Therapeutics (CDoT) 
+                I am a Computational Associate in the Iqbal lab, a part of the Ladders2Cures Accelerator
                 at the <a href="https://www.broadinstitute.org/" target="_blank" rel="noopener noreferrer">Broad Institute of MIT and Harvard</a>. 
             </p>
             <p>

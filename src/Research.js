@@ -43,13 +43,22 @@ const Research = () => {
         <h2>Publications</h2>
         <div style={{marginBottom: '4em'}}>
           <Publication
-            title="[Preprint] Genomics 2 Proteins portal: A resource and discovery tool for linking genetic screening outputs to protein sequences and structures"
-            link="https://www.biorxiv.org/content/10.1101/2024.01.02.573913v1"
+            title="Genomics 2 Proteins portal: A resource and discovery tool for linking genetic screening outputs to protein sequences and structures"
+            link="https://www.nature.com/articles/s41592-024-02409-0"
             authors={["Kwon, S.*", "Safer, J.*", "Nguyen, D.T.", "Hoksza, D.", "May, P.", "Arbesfeld, J.", "Rubin, A.F.", "et al."]}
             me_index={1}
-            date="2024"
-            medium="bioRxiv"
+            date="Sep 18, 2024"
+            medium="Nature Methods"
             description={"Methods paper introducing g2p.broadinstitute.org, a portal for mapping varaints, base-editing screen outputs, etc to protein sequence and structure"}
+          />
+          <Publication
+           title="ema-tool: a Python Library for the Comparative Analysis of Embeddings from Biomedical Foundation Models"
+           link="https://www.biorxiv.org/content/10.1101/2024.06.21.600139v1"
+           authors={["Rissom, P.F.", "Sarmiento, P.Y.", "Safer, J.", "Coley, C.W.", "Renard, B.Y.", "et al."]}
+            me_index={2}
+            date="Jun 27, 2024"
+            medium="bioRxiv"
+            description={"Methods paper on ema-tool, a Python library for the comparative analysis of embeddings from biomedical foundation models."}
           />
           <Publication
             title="[Preprint] Mapping MAVE data for use in human genomics applications"
