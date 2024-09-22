@@ -6,7 +6,7 @@ import { faGithub, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-ic
 import { faEnvelope, faFileDownload } from '@fortawesome/free-solid-svg-icons';
 
 import orcidIcon from './assets/ORCID_iD.svg';
-import cv from './assets/JordanSaferResume07142023.pdf';
+import cv from './assets/JordanSaferResume09212024.pdf';
 
 // In your component render method:
 
