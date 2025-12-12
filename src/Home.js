@@ -8,7 +8,6 @@ import { faEnvelope, faFileDownload } from '@fortawesome/free-solid-svg-icons';
 import orcidIcon from './assets/ORCID_iD.svg';
 import cv from './assets/JordanSaferResume20251212.pdf';
 
-// In your component render method:
 
 
 const Home = () => {
