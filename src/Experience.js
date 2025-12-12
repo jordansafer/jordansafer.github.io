@@ -11,6 +11,9 @@ const Experience = () => (
     <section>
       <h2>Education</h2>
       <div>
+        <h3>Doctor of Philosophy in Computer Science advised by Prof. Roy Kishony</h3>
+        <p>Technion - Israel Institute of Technology, Haifa, Israel</p>
+        <p>December 2025 - Present</p>
         <h3>Master of Science in Electrical and Computer Engineering</h3>
         <p>Carnegie Mellon University, Pittsburgh, PA</p>
         <p>September 2017 - May 2018</p>

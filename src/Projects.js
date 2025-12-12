@@ -11,7 +11,7 @@ const Projects = () => {
     const projects = [
       {
         name: 'Genomics 2 Proteins Portal',
-        date: 'April 2023 - Present',
+        date: 'April 2023 - September 2025',
         description: [
           "G2P is a portal that takes on the challenge of integrating the ever \
           growing amount of variant data with protein data on the sequence and structure. \

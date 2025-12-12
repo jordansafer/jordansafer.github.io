@@ -52,24 +52,20 @@ const Home = () => {
         <div className="mainContent">
           <h2>About</h2>
             <p>
-                I am a Computational Associate in the Iqbal lab, a part of the Ladders2Cures Accelerator
-                at the <a href="https://www.broadinstitute.org/" target="_blank" rel="noopener noreferrer">Broad Institute of MIT and Harvard</a>. 
+                I am a Computer Science PhD student in the <a href="https://kishony.technion.ac.il/" target="_blank" rel="noopener noreferrer">Kishony Lab</a> at 
+                the <a href="https://www.technion.ac.il/en" target="_blank" rel="noopener noreferrer">Technion - Israel Institute of Technology</a>.
             </p>
             <p>
-                
-            </p>
-            <p> 
-                As a computational researcher, my goal is to create tools that allow us to systematically understand and treat disease. To that end,
-                see my current work on <a href="https://g2p.broadinstitute.org/" target="_blank" rel="noopener noreferrer">Genomics to Proteins Portal (G2P)
-                </a>. I currently work on tooling around protein struture and function, especially around genetic variation. I'm also very excited about
+                As a computational researcher, my goal is to create tools that allow us to systematically understand and treat disease and develop biotechnologies. To that end,
+                I am currently working on methods to leverage Large Language Models (LLMs) and machine learning approaches to accelerate biological research.
+                Previously, I worked on <a href="https://g2p.broadinstitute.org/" target="_blank" rel="noopener noreferrer">Genomics to Proteins Portal (G2P)</a>, 
+                and other computational projects focused on protein structure and function. I'm also very excited about
                 protein kinetics 🙂.
             </p>
         <h2>Research Interests and motivation</h2>   
             <p>
                 <strong>A quick summary:</strong> My current focus is on building <strong>computational tools</strong> to study 
-                the influence of <strong>protein sequence</strong>, <strong>protein structure</strong>, and <strong>genetic variants</strong> to 
-                understand and predict <strong>protein behaviors</strong> including <strong>disease mechanisms</strong>, <strong>therapeutic 
-                targets</strong>, and <strong>protein kinetics</strong>.
+                genomic, biomolecular, and biochemical systems.
             </p>
             <p>
                 <strong>What:</strong> Research computational techniques to <em>systematically</em> reduce the rate of disease. 
@@ -88,7 +84,7 @@ const Home = () => {
             </p>
             <p>
                 <strong>How:</strong> As a computational researcher with a computational background, I see 2 high level challenges to modeling 
-                our bodies and everything inside them. Neuroscience aside.
+                our bodies and everything inside them.
             </p>
             <ol>
                 <li>
@@ -100,12 +96,6 @@ const Home = () => {
                 organisms.
                 </li>
             </ol>
-            <p>
-                Towards the first objective, my focus is on learning everything about cellular modeling, from the ground 
-                up. I’m currently working at the intersection of <strong>genomics</strong> and <strong>protein structure</strong>, 
-                with an emphasis on <strong>computational tools</strong> for predicting protein activity both broadly and in 
-                the context of disease.
-            </p>
         </div>
       </div>
         </>
